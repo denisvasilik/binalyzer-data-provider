@@ -9,10 +9,10 @@
     :license: MIT
 """
 
-from binalyzer_core import DataProvider
+from binalyzer_core import DataProviderBase
 
 
-class BufferedIODataProvider(DataProvider):
+class BufferedIODataProvider(DataProviderBase):
 
     def __init__(self, data):
         self._data = data
