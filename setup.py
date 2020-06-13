@@ -33,5 +33,8 @@ setuptools.setup(
     setup_requires=[],
     install_requires=[
     ],
-    entry_points={},
+    entry_points='''
+        [binalyzer.commands]
+        io=binalyzer_cli.commands:io
+    ''',
 )
