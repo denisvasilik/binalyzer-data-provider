@@ -34,8 +34,5 @@ setuptools.setup(
     install_requires=[
         "binalyzer-core",
     ],
-    entry_points='''
-        [binalyzer.commands]
-        io=binalyzer_cli.commands:io
-    ''',
+    entry_points='',
 )
