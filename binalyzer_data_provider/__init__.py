@@ -14,6 +14,4 @@ name = "binalyzer_data_provider"
 __tag__ = ""
 __build__ = 0
 __version__ = "{}".format(__tag__)
-__commit__ = "00000000"
-
-from .io import BufferedIODataProvider
+__commit__ = "0000000"
